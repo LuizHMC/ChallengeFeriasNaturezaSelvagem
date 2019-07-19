@@ -16,6 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        /*
+         let defaults = UserDefaults.standard
+         
+         if !defaults.bool(forKey:"populado"){
+         //Lê json, alimenta core data, salva core data
+         defaults.set(true, forKey:"populado")
+         }
+         */
+        
         // Override point for customization after application launch.
         return true
     }
