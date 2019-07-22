@@ -57,18 +57,20 @@
         <scene sceneID="5tp-k0-Na5">
             <objects>
                 <tableViewController id="SZG-T4-HrR" customClass="FrasesTableViewController" customModule="ChallengeFeriasNaturezaSelvagem" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="bYG-dN-Fra">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" id="bYG-dN-Fra">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.99921411280000005" green="0.9781686664" blue="0.85096198320000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="sectionIndexBackgroundColor" red="0.99921411280000005" green="0.9781686664" blue="0.85096198320000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="pHi-ns-HHM">
-                                <rect key="frame" x="0.0" y="28" width="414" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="pHi-ns-HHM">
+                                <rect key="frame" x="0.0" y="28" width="414" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pHi-ns-HHM" id="TIC-SB-QfL">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="99.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.99921411275863647" green="0.97816866636276245" blue="0.85096198320388794" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -78,6 +80,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="bTS-iY-WL6">
                         <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="rnT-hR-VGl">
+                            <color key="tintColor" red="0.35006406903266907" green="0.3824487030506134" blue="0.49020910263061523" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             <connections>
                                 <segue destination="kJf-sm-JrA" kind="presentation" id="qEM-pj-yy7"/>
                             </connections>
@@ -87,6 +90,49 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sAc-oK-PUU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2218.840579710145" y="522.99107142857144"/>
+        </scene>
+        <!--Detalhe Frase Criada View Controller-->
+        <scene sceneID="Z3H-ui-Q9j">
+            <objects>
+                <viewController storyboardIdentifier="DetalheFraseCriadaViewController" id="ZM9-rp-7td" customClass="DetalheFraseCriadaViewController" customModule="ChallengeFeriasNaturezaSelvagem" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wMK-5W-ja9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9re-Bi-5Y3">
+                                <rect key="frame" x="45" y="168" width="349" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2oX-zl-ybG">
+                                <rect key="frame" x="45" y="327" width="349" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQD-oK-DOI">
+                                <rect key="frame" x="45" y="486" width="349" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="PFZ-J6-Zog"/>
+                    </view>
+                    <connections>
+                        <outlet property="citacaoDetalhe" destination="2oX-zl-ybG" id="Q1T-L7-NBG"/>
+                        <outlet property="descricaoDetalhe" destination="9re-Bi-5Y3" id="kOq-DG-hUw"/>
+                        <outlet property="significadoDetalhe" destination="cQD-oK-DOI" id="1TC-dT-cNG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4yn-0A-rJI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3205.7971014492755" y="718.52678571428567"/>
         </scene>
         <!--Frases Creator Controller-->
         <scene sceneID="W40-Xc-F52">
@@ -104,14 +150,14 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Significado" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tbd-Ba-vxz">
-                                <rect key="frame" x="122" y="433" width="197" height="30"/>
+                                <rect key="frame" x="109" y="433" width="197" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bW9-jH-3te">
-                                <rect key="frame" x="185" y="546" width="44" height="30"/>
+                                <rect key="frame" x="185" y="617" width="44" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="CRIAR"/>
                                 <connections>
@@ -119,7 +165,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Citacao" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZOO-BU-G7u">
-                                <rect key="frame" x="109" y="315" width="197" height="30"/>
+                                <rect key="frame" x="109" y="302" width="197" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -137,23 +183,61 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c9J-F8-xuR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3253.6231884057975" y="522.99107142857144"/>
+            <point key="canvasLocation" x="3214" y="78"/>
         </scene>
-        <!--Primeira-->
+        <!--Início-->
         <scene sceneID="1QJ-3V-PUu">
             <objects>
                 <viewController id="YpI-0w-kQq" customClass="InicioViewController" customModule="ChallengeFeriasNaturezaSelvagem" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Rw-md-9xl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YSX-vU-wCa">
+                                <rect key="frame" x="34" y="594" width="346" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tes-jG-EeZ">
+                                <rect key="frame" x="35" y="710" width="65" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Esquerda"/>
+                                <connections>
+                                    <action selector="btnesquerda:" destination="YpI-0w-kQq" eventType="touchUpInside" id="O6U-Qd-2F3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hUo-Wv-sUP">
+                                <rect key="frame" x="307" y="710" width="45" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Direita"/>
+                                <connections>
+                                    <action selector="btndireita:" destination="YpI-0w-kQq" eventType="touchUpInside" id="fwO-d8-lz6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VLj-Us-lA0">
+                                <rect key="frame" x="20" y="73" width="368" height="498"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="QYI-Ji-GCg"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Primeira" id="7Xc-Gh-kdl"/>
+                    <tabBarItem key="tabBarItem" title="Início" image="casaicon" landscapeImage="casaicon" largeContentSizeImage="casaicon" selectedImage="casaicon" id="7Xc-Gh-kdl"/>
+                    <connections>
+                        <outlet property="btndireitaoutlet" destination="hUo-Wv-sUP" id="Z9i-d0-oiy"/>
+                        <outlet property="btnesquerdaoutlet" destination="Tes-jG-EeZ" id="PcI-fb-q9n"/>
+                        <outlet property="citacaoinicio" destination="YSX-vU-wCa" id="CZm-44-vcN"/>
+                        <outlet property="fraseinicio" destination="VLj-Us-lA0" id="bLZ-Vp-NjY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QJg-qI-7iF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1309" y="-172"/>
+            <point key="canvasLocation" x="1308.6956521739132" y="-172.09821428571428"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="y3K-C2-IiC">
@@ -198,5 +282,6 @@
     </scenes>
     <resources>
         <image name="backgroundimg" width="414" height="896"/>
+        <image name="casaicon" width="27" height="27.5"/>
     </resources>
 </document>
