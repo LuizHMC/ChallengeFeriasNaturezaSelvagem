@@ -3,9 +3,10 @@
     <entity name="Frase" representedClassName="Frase" syncable="YES">
         <attribute name="citacao" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="descricao" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="significado" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Frase" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="Frase" positionX="-63" positionY="-18" width="128" height="105"/>
     </elements>
 </model>

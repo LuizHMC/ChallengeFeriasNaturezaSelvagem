@@ -20,5 +20,6 @@ extension Frase {
     @NSManaged public var citacao: String?
     @NSManaged public var significado: String?
     @NSManaged public var descricao: String?
+    @NSManaged public var id: String?
 
 }

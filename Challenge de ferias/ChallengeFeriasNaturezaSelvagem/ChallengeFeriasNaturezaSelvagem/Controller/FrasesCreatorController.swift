@@ -23,6 +23,7 @@ public class FrasesCreatorController: UIViewController{
         frase.descricao = txtDescricao.text
         frase.citacao = txtCitacao.text
         frase.significado = txtSignificado.text
+        frase.id = UUID().uuidString
         
         do{
             try context.save()

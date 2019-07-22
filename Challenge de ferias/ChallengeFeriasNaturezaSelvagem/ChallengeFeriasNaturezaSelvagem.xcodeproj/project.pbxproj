@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6D63A56322DFB76A00744459 /* FrasesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D63A56222DFB76A00744459 /* FrasesTableViewController.swift */; };
 		6D63A56722DFC47800744459 /* FrasesCreatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D63A56622DFC47800744459 /* FrasesCreatorController.swift */; };
+		6D63A56922E3B88700744459 /* DetalheFraseCriadaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D63A56822E3B88700744459 /* DetalheFraseCriadaViewController.swift */; };
 		6DA0170E22D9329C00325837 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA0170D22D9329C00325837 /* AppDelegate.swift */; };
 		6DA0171322D9329C00325837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA0171122D9329C00325837 /* Main.storyboard */; };
 		6DA0171622D9329C00325837 /* ChallengeFeriasNaturezaSelvagem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6DA0171422D9329C00325837 /* ChallengeFeriasNaturezaSelvagem.xcdatamodeld */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		6D63A56222DFB76A00744459 /* FrasesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrasesTableViewController.swift; sourceTree = "<group>"; };
 		6D63A56622DFC47800744459 /* FrasesCreatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrasesCreatorController.swift; sourceTree = "<group>"; };
+		6D63A56822E3B88700744459 /* DetalheFraseCriadaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalheFraseCriadaViewController.swift; sourceTree = "<group>"; };
 		6DA0170A22D9329C00325837 /* ChallengeFeriasNaturezaSelvagem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChallengeFeriasNaturezaSelvagem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DA0170D22D9329C00325837 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DA0171222D9329C00325837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -99,11 +101,12 @@
 		6D63A56522DFC3CB00744459 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				6DA0173E22DD0F8A00325837 /* InicioViewController.swift */,
+				6D63A56622DFC47800744459 /* FrasesCreatorController.swift */,
+				6D63A56222DFB76A00744459 /* FrasesTableViewController.swift */,
+				6D63A56822E3B88700744459 /* DetalheFraseCriadaViewController.swift */,
 				6DA0174022DD10D100325837 /* ConfiguracoesViewController.swift */,
 				6DA0174222DD110700325837 /* AvisosViewController.swift */,
-				6D63A56622DFC47800744459 /* FrasesCreatorController.swift */,
-				6DA0173E22DD0F8A00325837 /* InicioViewController.swift */,
-				6D63A56222DFB76A00744459 /* FrasesTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D63A56922E3B88700744459 /* DetalheFraseCriadaViewController.swift in Sources */,
 				6DA0174822DFB32F00325837 /* Frase+CoreDataClass.swift in Sources */,
 				6DA0174322DD110700325837 /* AvisosViewController.swift in Sources */,
 				6DA0171622D9329C00325837 /* ChallengeFeriasNaturezaSelvagem.xcdatamodeld in Sources */,
