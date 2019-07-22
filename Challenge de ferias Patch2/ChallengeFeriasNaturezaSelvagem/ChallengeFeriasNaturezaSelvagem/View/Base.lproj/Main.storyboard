@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2Dt-iC-rpb">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Quarta-->
+        <scene sceneID="hMf-ra-aPn">
+            <objects>
+                <viewController id="HPO-6p-blo" customClass="AvisosViewController" customModule="ChallengeFeriasNaturezaSelvagem" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pd1-eK-FL3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="d6p-MR-Soj"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Quarta" id="SrT-H6-vpZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Vc-o7-Ngp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-671" y="1010"/>
+        </scene>
+        <!--Terceira-->
+        <scene sceneID="BaD-sW-ykd">
+            <objects>
+                <viewController id="8Sx-SN-h9V" customClass="ConfiguracoesViewController" customModule="ChallengeFeriasNaturezaSelvagem" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="z9c-uS-Nun">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundimg" translatesAutoresizingMaskIntoConstraints="NO" id="r2P-k0-QWA">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="r2P-k0-QWA" firstAttribute="leading" secondItem="4gg-fI-vkf" secondAttribute="leading" id="KZr-qV-RxP"/>
+                            <constraint firstItem="4gg-fI-vkf" firstAttribute="trailing" secondItem="r2P-k0-QWA" secondAttribute="trailing" id="ffq-8y-qQP"/>
+                            <constraint firstItem="4gg-fI-vkf" firstAttribute="bottom" secondItem="r2P-k0-QWA" secondAttribute="bottom" id="h70-1n-UMw"/>
+                            <constraint firstItem="r2P-k0-QWA" firstAttribute="top" secondItem="4gg-fI-vkf" secondAttribute="top" id="i9O-Vo-DEu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4gg-fI-vkf"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Terceira" id="R8y-Nt-RwB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qFR-zY-Kar" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="333" y="1010"/>
+        </scene>
+        <!--Frases Table View Controller-->
+        <scene sceneID="5tp-k0-Na5">
+            <objects>
+                <tableViewController id="SZG-T4-HrR" customClass="FrasesTableViewController" customModule="ChallengeFeriasNaturezaSelvagem" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" sectionHeaderHeight="28" sectionFooterHeight="28" id="bYG-dN-Fra">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.99921411280000005" green="0.9781686664" blue="0.85096198320000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="sectionIndexBackgroundColor" red="0.99921411280000005" green="0.9781686664" blue="0.85096198320000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="100" id="pHi-ns-HHM">
+                                <rect key="frame" x="0.0" y="28" width="414" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="pHi-ns-HHM" id="TIC-SB-QfL">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="99.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.99921411275863647" green="0.97816866636276245" blue="0.85096198320388794" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="SZG-T4-HrR" id="BeJ-G3-8uh"/>
+                            <outlet property="delegate" destination="SZG-T4-HrR" id="VfG-Ne-iqV"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="bTS-iY-WL6">
+                        <barButtonItem key="rightBarButtonItem" style="plain" systemItem="add" id="rnT-hR-VGl">
+                            <color key="tintColor" red="0.35006406903266907" green="0.3824487030506134" blue="0.49020910263061523" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <connections>
+                                <segue destination="kJf-sm-JrA" kind="presentation" id="qEM-pj-yy7"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sAc-oK-PUU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2218.840579710145" y="522.99107142857144"/>
+        </scene>
+        <!--Detalhe Frase Criada View Controller-->
+        <scene sceneID="Z3H-ui-Q9j">
+            <objects>
+                <viewController storyboardIdentifier="DetalheFraseCriadaViewController" id="ZM9-rp-7td" customClass="DetalheFraseCriadaViewController" customModule="ChallengeFeriasNaturezaSelvagem" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wMK-5W-ja9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9re-Bi-5Y3">
+                                <rect key="frame" x="45" y="168" width="349" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2oX-zl-ybG">
+                                <rect key="frame" x="45" y="327" width="349" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQD-oK-DOI">
+                                <rect key="frame" x="45" y="486" width="349" height="73"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="PFZ-J6-Zog"/>
+                    </view>
+                    <connections>
+                        <outlet property="citacaoDetalhe" destination="2oX-zl-ybG" id="Q1T-L7-NBG"/>
+                        <outlet property="descricaoDetalhe" destination="9re-Bi-5Y3" id="kOq-DG-hUw"/>
+                        <outlet property="significadoDetalhe" destination="cQD-oK-DOI" id="1TC-dT-cNG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4yn-0A-rJI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3205.7971014492755" y="718.52678571428567"/>
+        </scene>
+        <!--Frases Creator Controller-->
+        <scene sceneID="W40-Xc-F52">
+            <objects>
+                <viewController id="kJf-sm-JrA" customClass="FrasesCreatorController" customModule="ChallengeFeriasNaturezaSelvagem" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Fro-e1-Xll">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Descricao" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oRc-qQ-WWd">
+                                <rect key="frame" x="109" y="187" width="197" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Significado" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tbd-Ba-vxz">
+                                <rect key="frame" x="109" y="433" width="197" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bW9-jH-3te">
+                                <rect key="frame" x="185" y="617" width="44" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="CRIAR"/>
+                                <connections>
+                                    <action selector="btnCriarTapped:" destination="kJf-sm-JrA" eventType="touchUpInside" id="yuH-XU-Hdc"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Citacao" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZOO-BU-G7u">
+                                <rect key="frame" x="109" y="302" width="197" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Owe-NO-IZb"/>
+                    </view>
+                    <connections>
+                        <outlet property="txtCitacao" destination="ZOO-BU-G7u" id="eRA-ZX-WSc"/>
+                        <outlet property="txtDescricao" destination="oRc-qQ-WWd" id="EwO-Xp-k8C"/>
+                        <outlet property="txtSignificado" destination="tbd-Ba-vxz" id="TNo-Lw-t0L"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c9J-F8-xuR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3214" y="78"/>
+        </scene>
+        <!--Início-->
+        <scene sceneID="1QJ-3V-PUu">
+            <objects>
+                <viewController id="YpI-0w-kQq" customClass="InicioViewController" customModule="ChallengeFeriasNaturezaSelvagem" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Rw-md-9xl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YSX-vU-wCa">
+                                <rect key="frame" x="34" y="594" width="346" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tes-jG-EeZ">
+                                <rect key="frame" x="35" y="710" width="65" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Esquerda"/>
+                                <connections>
+                                    <action selector="btnesquerda:" destination="YpI-0w-kQq" eventType="touchUpInside" id="O6U-Qd-2F3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hUo-Wv-sUP">
+                                <rect key="frame" x="307" y="710" width="45" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Direita"/>
+                                <connections>
+                                    <action selector="btndireita:" destination="YpI-0w-kQq" eventType="touchUpInside" id="fwO-d8-lz6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VLj-Us-lA0">
+                                <rect key="frame" x="20" y="73" width="368" height="498"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="QYI-Ji-GCg"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Início" image="casaicon" landscapeImage="casaicon" largeContentSizeImage="casaicon" selectedImage="casaicon" id="7Xc-Gh-kdl"/>
+                    <connections>
+                        <outlet property="btndireitaoutlet" destination="hUo-Wv-sUP" id="Z9i-d0-oiy"/>
+                        <outlet property="btnesquerdaoutlet" destination="Tes-jG-EeZ" id="PcI-fb-q9n"/>
+                        <outlet property="citacaoinicio" destination="YSX-vU-wCa" id="CZm-44-vcN"/>
+                        <outlet property="fraseinicio" destination="VLj-Us-lA0" id="bLZ-Vp-NjY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QJg-qI-7iF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1308.6956521739132" y="-172.09821428571428"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="y3K-C2-IiC">
+            <objects>
+                <tabBarController id="2Dt-iC-rpb" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vwf-x0-fg8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="selectedImageTintColor" red="0.41745650768280029" green="0.31785619258880615" blue="0.63924503326416016" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="YpI-0w-kQq" kind="relationship" relationship="viewControllers" id="uqJ-ba-Avz"/>
+                        <segue destination="jll-Qy-Fsl" kind="relationship" relationship="viewControllers" id="m5p-xX-9lD"/>
+                        <segue destination="8Sx-SN-h9V" kind="relationship" relationship="viewControllers" id="BGx-Zw-Dmf"/>
+                        <segue destination="HPO-6p-blo" kind="relationship" relationship="viewControllers" id="Avf-hR-dOT"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sxi-jK-vfU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-156" y="60"/>
+        </scene>
+        <!--Segunda-->
+        <scene sceneID="j5m-Ya-bcc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jll-Qy-Fsl" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Segunda" id="fCi-sc-g4l"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9k9-b2-nhC">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="SZG-T4-HrR" kind="relationship" relationship="rootViewController" id="XgZ-23-3Hf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UXL-7a-vFB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1308.6956521739132" y="522.99107142857144"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="backgroundimg" width="414" height="896"/>
+        <image name="casaicon" width="27" height="27.5"/>
+    </resources>
+</document>
